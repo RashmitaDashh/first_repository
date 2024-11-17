@@ -1,0 +1,12 @@
+Contains code for uploading files to server
+
+Refer Code with Durgesh videos
+____________________________________________________________________________________________________________________________________________
+Steps to upload file(a slightly different way as suggested by chatgpt):
+---------------------------------------------------------------------------
+1.  HttpStatus, RequestParam, ResponseEntity- Structure HttpStatus, accept a file from web browser, set response status
+	@RestController, @RequestMapping, @PostMapping- Define REST end points
+	MultipartFile - represents a file upload in HTTP request
+	StringUtils - contains cleanPath() to sanitize file names
+	java.nio.file - contains path, paths, files to handle file paths and file system operations
+____________________________________________________________________________________________________________________________________________
